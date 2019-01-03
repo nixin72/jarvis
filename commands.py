@@ -1,8 +1,8 @@
 import datetime
 import sys
 
-sys.path.insert(0, './modules/Win-Audio/')
-from sound import Sound
+sys.path.insert(0, './modules/Callable/')
+from audio import Audio
 from brightness import Brightness
 
 def greet(arguments, user):
@@ -29,17 +29,17 @@ def setter(arguments, user):
     setting = arguments[1]
     if obj == "volume":
         if setting == "up":
-            Sound.volume_up()
+            Audio.volume_up()
         elif setting == "down":
-            Sound.volume_down()
+            Audio.volume_down()
         elif setting == "full":
-            Sound.volume_max()
+            Audio.volume_max()
         elif setting == "mute" or setting == "off":
-            Sound.mute()
+            Audio.mute()
         elif setting == "unmute":
-            Sound.mute()
+            Audio.mute()
         else: 
-            Sound.set(int(setting))
+            Audio.set(int(setting))
     if obj == "brightness":
         if setting == "up":
             Brightness.up()
@@ -52,4 +52,9 @@ def setter(arguments, user):
         else: 
             Brightness.set(int(setting))
 
-    return "Volume set to " + str(Sound.current_volume())
+    return "Volume set to " + str(Audio.current_volume())
+
+def at(arguments, user):
+    time = arguments[0]
+    command = arguments[0]
+    arguments = arguments[1]

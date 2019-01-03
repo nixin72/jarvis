@@ -1,7 +1,7 @@
 import datetime
 import sys
 
-sys.path.insert(0, './lib/Win-Audio/')
+sys.path.insert(0, './modules/Win-Audio/')
 from sound import Sound
 from brightness import Brightness
 

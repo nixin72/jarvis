@@ -1,2 +1,0 @@
-class UnsupportedOperatingSystem(Exception):
-    pass

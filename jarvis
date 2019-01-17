@@ -1,1 +1,16 @@
-python jarvis.py
+#!/usr/bin/env bash
+
+if [ "$1" = "-s" ] 
+    then
+    echo "Hello"
+    cd ./api/
+    php -S localhost:3672 &>> ./.log
+fi
+
+if [ $1 = '-j' ] 
+    then
+    echo "sup"
+    cd ./assistant
+    python test.py $2 $3
+    rm -rf *.pyc 
+fi

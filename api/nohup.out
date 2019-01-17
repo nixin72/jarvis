@@ -1,0 +1,16 @@
+PHP 7.2.10-0ubuntu0.18.04.1 Development Server started at Wed Jan 16 18:42:45 2019
+Listening on http://172.30.90.30:8000
+Document root is /mnt/l/Git/Jarvis/api
+Press Ctrl-C to quit.
+PHP 7.2.10-0ubuntu0.18.04.1 Development Server started at Wed Jan 16 18:43:59 2019
+Listening on http://172.30.90.30:8000
+Document root is /mnt/l/Git/Jarvis/api
+Press Ctrl-C to quit.
+PHP 7.2.10-0ubuntu0.18.04.1 Development Server started at Wed Jan 16 18:44:08 2019
+Listening on http://172.30.90.30:8000
+Document root is /mnt/l/Git/Jarvis/api
+Press Ctrl-C to quit.
+[Wed Jan 16 18:45:29 2019] 172.30.90.30:33967 [200]: /
+[Wed Jan 16 18:45:30 2019] 172.30.90.30:33968 [404]: /favicon.ico - No such file or directory
+[Wed Jan 16 18:49:53 2019] 172.30.90.30:34032 [200]: /
+[Wed Jan 16 18:49:53 2019] 172.30.90.30:34033 [404]: /favicon.ico - No such file or directory

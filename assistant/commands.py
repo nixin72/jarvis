@@ -46,7 +46,7 @@ def setter(arguments, user):
             Audio.mute()
         elif setting == "unmute":
             Audio.mute()
-        else: 
+        else:
             Audio.set(int(setting))
 
         curr = Audio.current_volume()
@@ -59,7 +59,7 @@ def setter(arguments, user):
             Brightness.max()
         elif setting == "min":
             Brightness.min()
-        else: 
+        else:
             Brightness.set(int(setting))
         curr = Brightness.current_brightness()
     if obj == "alarm":
